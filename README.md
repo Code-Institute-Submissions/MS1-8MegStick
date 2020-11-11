@@ -1,45 +1,32 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="images/8meg-rm.png" style="margin: 0;">
 
-Welcome PaulWheatcroft,
+# 8 Meg Stick Records
+>
+> 8 Meg Stick Records is an emerging independent digital record label with a small roster of artists and releases. 
+>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Strategy
+There are 3 profiles that will access the 8 Meg Stick Records website.
+These are:
 
-## Gitpod Reminders
+- New music enthusiast
+- Musician wishing to send a demo
+- Venue reviewing one of the artists prior to booking a gig
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### New music enthusiast
+This person is aware of the record label through advertising via digital channels or attending a gig of one of the artists.
+- Primarily accessed by mobile device
+- Clear linking of music and artists to corresponding streaming platform services
+- Information on the artists
+- Ability to sign up for new release alerts
+### Musician wishing to send a demo
+A musicial will have found the record label through internet searches and will be influenced by the look and feel of the site as to whether they want to be represented by the label.
+- Primarily accessed via desktop
+- Ability to send links to demos
+### Venue reviewing one of the artists prior to booking a gig
+This personal will have been contacted directly the artists who will use the label's website a supporting collateral when trying to gig slots at venues.
+- Primarily accessed through a tablet of desktop
+- Access to video content showing live performance
+- Clear linking of music and artists to corresponding streaming platform services
+- Information on the artists
 
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
