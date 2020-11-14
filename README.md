@@ -4,6 +4,7 @@
 >
 > 8 Meg Stick Records is an emerging independent digital record label with a small roster of artists and releases. The label require a website to showcase 
 their musical releases.
+>
 
 3 sets of target personas have been identified:
 
@@ -59,8 +60,23 @@ Using the targeted personas the following list of user stories have been identif
 
 ## Design Choices
 
-### Colour Pallet
-Below is the brand colour pallet for 8 Meg Stick Records. Whilst these form the foundation of the colour scheme there is a desire to bring in other strong colourful colours to the gamut to support vibrant elements to the website.
+The persona that 8 Meg Stick Records wish to primarily target are likely to be viewing the site on a phone. Therefore the site will be a mobile first approach.
+
+The number one feature is links from each release to 6 of the most popular streaming platforms. There are:
+
+- Spotify
+- Appme Music
+- YouTube Music
+- Amazon Music
+- Deezer
+- Tidal
+
+To ensure the experience is focussed on the releases this will be a multi-page website.
+
+The look and feel of the site needs to be built around the 8 Meg Stick Records branding. The website needs to feel modern, vivid with vibrant and dynamic touches.
+
+Below is the brand colour pallet for 8 Meg Stick Records. Whilst these form the foundation of the colour scheme other strong colours will be required to support vibrant accents on the website.
+
 | Description | Hex Colour Value |
 | --- | ----------- |
 | Dark grey which can be used extensively | #1a1a1a |
@@ -69,3 +85,15 @@ Below is the brand colour pallet for 8 Meg Stick Records. Whilst these form the 
 | Darker yellow to be used as a secondary supportive colour | #d4aa00 |
 | Sky blue to be used as a main highlight colour | #80ffe6 |
 
+## Structure
+
+Whilst the focus is on a mobile first design the website needs to provide an optimal experience across all screen types.
+
+The site will consist 4 pages
+
+- releases
+- artists
+- about the label
+- contact
+
+There will be a navigation bar at the top of each page facilitating access to other pages on the site. This navigation element will collaps on a mobile device.
