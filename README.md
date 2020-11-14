@@ -81,13 +81,12 @@ accents on the website. Bold use of band photograpy and imagery is encouraged.
 
 | Description | Hex Colour Value | Visual |
 | --- | ----------- | --- |
-| Dark grey which can be used extensively | #1a1a1a | <div style="background-color:#1a1a1a;color:#1a1a1a;" markdown="1">------</div> |
+| Dark grey which can be used extensively | #1a1a1a | <div markdown="1" style="background-color:#1a1a1a;color:#1a1a1a;">------</div> |
 | Off white which can be used extensively | #f9f9f9 | <div style="background-color:#f9f9f9;color:#f9f9f9;" markdown="1">------</div> |
 | Light yellow to be used as a primary colour | #ffdd55 | <div style="background-color:#ffdd55;color:#ffdd55;" markdown="1">------</div> |
 | Darker yellow to be used as a secondary supportive colour | #d4aa00 | <div style="background-color:#d4aa00;color:#d4aa00;" markdown="1">------</div> |
 | Sky blue to be used as a main highlight colour | #80ffe6 | <div style="background-color:#80ffe6;color:#80ffe6;" markdown="1">------</div> |
 
-<div style="background-color:#ffdd55;color:#ffdd55;" markdown="1">------</div>
 
 The main font used in the 8 Meg Stick Records logo is not available as a web font. This is a serif font. No other serif fonts should be used as may detract from the logo. 
 
@@ -161,7 +160,7 @@ Beneath the navigation bar which is common to all of the pages the artists page 
 
 ##Bugs
 
-Not able to create a visual representation of colour swtch using html.
+Not able to view html div visual representation of colour swatch in GitHub even though it displays correctly in thr README.md preview.
 
 ***
 
