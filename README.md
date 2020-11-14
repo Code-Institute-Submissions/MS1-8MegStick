@@ -87,6 +87,8 @@ accents on the website. Bold use of band photograpy and imagery is encouraged.
 | Darker yellow to be used as a secondary supportive colour | #d4aa00 | <div style="background-color:#d4aa00;color:#d4aa00;" markdown="1">------</div> |
 | Sky blue to be used as a main highlight colour | #80ffe6 | <div style="background-color:#80ffe6;color:#80ffe6;" markdown="1">------</div> |
 
+<div style="background-color:#ffdd55;color:#ffdd55;" markdown="1">------</div>
+
 The main font used in the 8 Meg Stick Records logo is not available as a web font. This is a serif font. No other serif fonts should be used as may detract from the logo. 
 
 The secondary font used in the logo is Noto Sans TC. This is available as a web font and will be used for headings.
