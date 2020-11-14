@@ -1,6 +1,7 @@
 <img src="images/8meg-rm.png" style="margin: 0;">
 
 # 8 Meg Stick Records
+
 >
 > 8 Meg Stick Records is an emerging independent digital record label with a small roster of artists and releases. The label require a website to showcase 
 their musical releases.
@@ -57,6 +58,7 @@ Using the targeted personas the following list of user stories have been identif
 - I can watch a video of an artist
 - I can contact the label about an artist
 
+***
 
 ## Design Choices
 
@@ -65,35 +67,102 @@ The persona that 8 Meg Stick Records wish to primarily target are likely to be v
 The number one feature is links from each release to 6 of the most popular streaming platforms. There are:
 
 - Spotify
-- Appme Music
+- Apple Music
 - YouTube Music
 - Amazon Music
 - Deezer
 - Tidal
 
-To ensure the experience is focussed on the releases this will be a multi-page website.
+The look and feel of the site needs to be built around the 8 Meg Stick Records branding. The website needs to feel modern, vivid with vibrant and dynamic touches. The tone should
+be professional but not corporate.
 
-The look and feel of the site needs to be built around the 8 Meg Stick Records branding. The website needs to feel modern, vivid with vibrant and dynamic touches.
+Below is the brand colour pallet for 8 Meg Stick Records. Whilst these form the foundation of the colour scheme other strong colours will be required to support vibrant 
+accents on the website. Bold use of band photograpy and imagery is encouraged.
 
-Below is the brand colour pallet for 8 Meg Stick Records. Whilst these form the foundation of the colour scheme other strong colours will be required to support vibrant accents on the website.
+| Description | Hex Colour Value | Visual |
+| --- | ----------- | --- |
+| Dark grey which can be used extensively | #1a1a1a | <div style="background-color:#1a1a1a;color:#1a1a1a;">------</div> |
+| Off white which can be used extensively | #f9f9f9 | <div style="background-color:#f9f9f9;color:#f9f9f9;">------</div> |
+| Light yellow to be used as a primary colour | #ffdd55 | <div style="background-color:#ffdd55;color:#ffdd55;">------</div> |
+| Darker yellow to be used as a secondary supportive colour | #d4aa00 | <div style="background-color:#d4aa00;color:#d4aa00;">------</div> |
+| Sky blue to be used as a main highlight colour | #80ffe6 | <div style="background-color:#80ffe6;color:#80ffe6;">------</div> |
 
-| Description | Hex Colour Value |
-| --- | ----------- |
-| Dark grey which can be used extensively | #1a1a1a |
-| Off white which can be used extensively | #f9f9f9 |
-| Light yellow to be used as a primary colour | #ffdd55 |
-| Darker yellow to be used as a secondary supportive colour | #d4aa00 |
-| Sky blue to be used as a main highlight colour | #80ffe6 |
+The main font used in the 8 Meg Stick Records logo is not available as a web font. This is a serif font. No other serif fonts should be used as may detract from the logo. 
+
+The secondary font used in the logo is Noto Sans. This is available as a web font and will be used for headings.
+
+Source Sans Pro will be used as the main content font as this is a complimentary font to Noto Sans.  
+
+***
 
 ## Structure
 
 Whilst the focus is on a mobile first design the website needs to provide an optimal experience across all screen types.
 
-The site will consist 4 pages
+To ensure the experience is focussed on the releases this will be a multi-page website consisting of 4 pages.
 
-- releases
-- artists
-- about the label
-- contact
+1. releases
+2. artists
+3. about the label
+4. contact
 
-There will be a navigation bar at the top of each page facilitating access to other pages on the site. This navigation element will collaps on a mobile device.
+There will be a horizontal navigation bar at the top of each page facilitating access to other pages on the site. This navigation element will collaps on a mobile device.
+
+The index.html page will contain the releases contect as this is the main focus of the site. All other pages will follow a consistent look and feel to the main page including 
+the same footer element which contain the record labels social media links.
+
+### The Releases Page
+
+The top of the page needs to consist of strong imagery of the latest release or next up and coming release from the record label. This section needs to enable the 
+viewer to sign up for new music release alerts from the label. This section needs to take up most but not all of the viewing area as to reveal the 
+Beneath this the page then displays all releases in chronological order. 
+Each release section should display:
+
+- Song title
+- Artist name which links to the artist profile that will be situated on the artists page
+- Cover art
+- Spotify streaming iframe as this enables anyone to hear 30 seconds of the track. Spotify users can hear the full track
+- Links to streaming services
+
+### The Atists Page
+
+Beneath the navigation bar which is common to all of the pages the artists page will contain a section on each artist. This will progress down the page in alphabetical order. 
+Each artist section will contain:
+
+- Artist name
+- Biography of the artist
+- Links to their tracks on the releases page
+- Photos and imagery (if available)
+- Videos (if available)
+- Social media links (if available)
+- Any other links that support the artists profile
+
+### The About Page
+
+Beneath the navigation bar which is common to all of the pages the artists page will contain a section on the record label. This section will contain:
+
+- An overview of the record label
+- Outline the record label ethos and musical direction
+- link to a form to submit a demo
+- Link to a form to register for notifications of new releases
+- Link to a general contact form
+
+### The Contact Page
+
+Beneath the navigation bar which is common to all of the pages the artists page will contain 3 forms.
+
+1. A form to register or notifications of new releases
+2. A form to submit a demo
+3. A general contact form
+
+***
+
+## Acknowledgements
+
+[Mark Down Guide](https://www.markdownguide.org/)
+
+README icons created by using Segoe UI Sybol font
+
+[Google Fonts](https://fonts.google.com/) used for displaying Noto Sans and Source Sans Pro fonts 
+
+
