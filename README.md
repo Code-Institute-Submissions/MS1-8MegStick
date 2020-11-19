@@ -115,14 +115,13 @@ the same footer element which contain the record labels social media links.
 ### The Releases Page
 
 The top of the page needs to consist of strong imagery of the latest release or next up and coming release from the record label. This section needs to enable the 
-viewer to sign up for new music release alerts from the label. This section needs to take up most but not all of the viewing area as to reveal the 
-Beneath this the page then displays all releases in chronological order. 
+viewer to sign up for new music release alerts from the label. This section needs to take up most but not all of the viewing area as to reveal the releases
+beneath the hero image. The releases will be in in chronological order of their release. 
 Each release section should display:
 
 - Song title
 - Artist name which links to the artist profile that will be situated on the artists page
 - Cover art
-- Spotify streaming iframe as this enables anyone to hear 30 seconds of the track. Spotify users can hear the full track
 - Links to streaming services
 
 ### The Atists Page
@@ -156,13 +155,31 @@ Beneath the navigation bar which is common to all of the pages the artists page 
 2. A form to submit a demo
 3. A general contact form
 
+
+
+***
+
+## Wireframing
+
+<img src="images/devices.png" style="margin: 0;">
+
+Mocking up of the site was done using Figma. I chose to use full images and colour as opposed to sketch/line drawings as the site would have many images and elements and therefore be visually busy so I needed to understand the relationships of these images such as the release cover art.
+
+A Figma wireframe for each page can be found in the links Below.
+
+[Releases - index.html](https://www.figma.com/file/lbEOracgvjZ4jw3uFd6hJd/8-Meg-Stick-Records?node-id=0%3A1)
+
+[Artists](https://www.figma.com/file/lbEOracgvjZ4jw3uFd6hJd/8-Meg-Stick-Records?node-id=31%3A2)
+
+[About](https://www.figma.com/file/lbEOracgvjZ4jw3uFd6hJd/8-Meg-Stick-Records?node-id=49%3A79)
+
+[Contact](https://www.figma.com/file/lbEOracgvjZ4jw3uFd6hJd/8-Meg-Stick-Records?node-id=49%3A207)
+
 ***
 
 ##Bugs
 
 Not able to view html div visual representation of colour swatch in GitHub even though it displays correctly in thr README.md preview.
-
-***
 
 ## Acknowledgements
 
