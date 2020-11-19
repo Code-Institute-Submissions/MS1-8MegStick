@@ -44,7 +44,6 @@ This persona will be interested in understanding the suitability and capability 
 - Listen to music
 - Be able to contact the label
 
-
 ### User Stories
 
 Using the targeted personas the following list of user stories have been identified to fullfil their needs.
@@ -57,8 +56,6 @@ Using the targeted personas the following list of user stories have been identif
 - I can contact the label to send my demo
 - I can watch a video of an artist
 - I can contact the label about an artist
-
-***
 
 ## Design Choices
 
@@ -93,8 +90,6 @@ The main font used in the 8 Meg Stick Records logo is not available as a web fon
 The secondary font used in the logo is Noto Sans TC. This is available as a web font and will be used for headings.
 
 Noto Sans will be used as the main content font as this is a complimentary font to Noto Sans TC.  
-
-***
 
 ## Structure
 
@@ -155,10 +150,6 @@ Beneath the navigation bar which is common to all of the pages the artists page 
 2. A form to submit a demo
 3. A general contact form
 
-
-
-***
-
 ## Wireframing
 
 <img src="images/devices.png" style="margin: 0;">
@@ -175,9 +166,7 @@ A Figma wireframe for each page can be found in the links Below.
 
 [Contact](https://www.figma.com/file/lbEOracgvjZ4jw3uFd6hJd/8-Meg-Stick-Records?node-id=49%3A207)
 
-***
-
-##Bugs
+## Bugs
 
 Not able to view html div visual representation of colour swatch in GitHub even though it displays correctly in thr README.md preview.
 
