@@ -1,6 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 /*
 font-family: 'Noto Sans', sans-serif;
 font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Monoton', cursive;
 */
+
+/*----------------------------------------- Release Covers */
+
+#mitti {
+    background-image: url(images/mitticover.jpg);
+}
+#deepfake {
+    background-image: url(images/deepfakecover.jpg);
+}
+#muchbetter {
+    background-image: url(images/muchbettercover.jpg);
+}
+#prettypicture {
+    background-image: url(images/prettypicturecover.jpg);
+}
+#slippyguppy {
+    background-image: url(images/slippyguppycover.jpg);
+}
+#campfire {
+    background-image: url(images/campfirecover.jpg);
+}
+
+/*----------------------------------------- Standard CSS */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar {
+    padding: 0px;
+    text-align: center;
+}
+
+.my-dark {
+    background-color: #1a1a1a;
+}
+.container {
+    line-height: 42px;
+    max-width: 100%;
+    padding: 0px;
+}
+#meg-logo {
+    height: 58px;
+    width: 155px;
+    padding-left: 25px
+}
+
+#releases {
+    background-color: #FFDD55;
+}
+#artists {
+    background-color: #80FFE6;
+}
+#about {
+    background-color: #FFAEAE;
+}
+#get-in-touch {
+    background-color: #B7FFA5;
+}
+.my-nav {
+    width: 100%;
+}
+.my-nav a {
+    color: #1a1a1a;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.navbar-collapse {
+    width: 100%;   
+}
+.my-container button {
+    margin-right: 2%;
+
+}
+.my-container button:focus {
+    border-color: #f9f9f9;
+    outline: none;
+}
+
+#menu-lines {
+    color: #f9f9f9;
+}
+
+.headings h1 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        width: 125px;
+    }
+}
