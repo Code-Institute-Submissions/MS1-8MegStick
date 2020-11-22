@@ -27,8 +27,7 @@ font-family: 'Monoton', cursive;
     background-image: url(images/campfirecover.jpg);
 }
 
-/*----------------------------------------- Standard CSS */
-
+/*----------------------------------------- General CSS */
 * {
 margin: 0;
 padding: 0;
@@ -38,7 +37,7 @@ body {
     background-color: #f9f9f9;
     font-family: 'Noto Sans', sans-serif;
 }
-
+/*----------------------------------------- Navigation CSS */
 .navbar {
     padding: 0px;
     text-align: center;
@@ -96,8 +95,53 @@ body {
 .headings h1 {
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: 300;
-
 }
+
+
+/*----------------------------------------- Footer CSS */
+footer {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #D4AA00 50%,#FFDD55 50%, #FFDD55 75%);
+    padding-top: 12px;
+}
+.footer-logo {
+    width: 81px;
+    height: 75px;
+    display: block;
+    float: left;
+    margin-left: 25px;
+    background-image: url(/images/8meg-rm.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.footer-links {
+    float: right;
+    margin: 22px 25px 0 0;
+ }
+ .footer-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 10px;
+    text-align: center;
+    color: #f9f9f9;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease, color 0.5s ease;
+    -moz-transition: background-color 0.5s ease, color 0.5s ease;
+    -o-: background-color 0.5s ease, color 0.5s ease;
+    background-color: #1a1a1a;
+
+ }
+  .footer-links li a i:hover {
+    background-color: #80FFE6;
+    color: #1a1a1a;
+}
+
 
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
