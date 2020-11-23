@@ -9,22 +9,22 @@ font-family: 'Monoton', cursive;
 /*----------------------------------------- Release Covers */
 
 #mitti {
-    background-image: url(images/mitticover.jpg);
+    background-image: url(/images/mitticover.jpg);
 }
 #deepfake {
-    background-image: url(images/deepfakecover.jpg);
+    background-image: url(/images/deepfakecover.jpg);
 }
 #muchbetter {
-    background-image: url(images/muchbettercover.jpg);
+    background-image: url(/images/muchbettercover.jpg);
 }
 #prettypicture {
-    background-image: url(images/prettypicturecover.jpg);
+    background-image: url(/images/prettypicturecover.jpg);
 }
 #slippyguppy {
-    background-image: url(images/slippyguppycover.jpg);
+    background-image: url(/images/slippyguppycover.jpg);
 }
 #campfire {
-    background-image: url(images/campfirecover.jpg);
+    background-image: url(/images/campfirecover.jpg);
 }
 
 /*----------------------------------------- General CSS */
@@ -188,6 +188,51 @@ body {
   top: 0;
 }
 
+/*----------------------------------------- Footer CSS */
+section {
+    position: relative;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.release-container {
+    width: 250px;
+    height: 360px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.release-cover {
+    margin: 10px auto;
+    width: 230px;
+    height: 230px;
+    border: 1px solid #dcdcdc;
+    border-radius: 50%;
+    background-size: cover;
+}
+.release-details {
+    color: #1a1a1a;
+}
+.release-details h2, h3 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 300;
+    font-size: 117%;
+}
+.release-details h2 {
+    margin-top: 12px;
+}
+.release-details ul {
+    margin-top: 15px;
+}
+.release-details ul li a svg {
+    width: 25px;
+    height: 25px;
+}
 
 /*----------------------------------------- Footer CSS */
 footer {
@@ -238,6 +283,10 @@ footer {
     .hero {
         background-image: url(/images/tablet-img.png);
     }
+    .release-container {
+        border: 1px solid #dcdcdc;
+        border-radius: 4px;
+    }
 }
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -246,5 +295,27 @@ footer {
     .hero {
         background-image: url(/images/desktop-img.png);
     }
-
+  .release-container {
+        width: 320px;
+        height: 470px;
+        border-radius: 5px;
+    }
+    .release-cover {
+        margin: 10px auto;
+        width: 300px;
+        height: 300px;
+    }
+    .release-details h2, h3 {
+        font-size: 150%;
+    }
+    .release-details h2 {
+        margin-top: 15px;
+    }
+    .release-details ul {
+        margin-top: 25px;
+    }
+    .release-details ul li a svg {
+        width: 37px;
+        height: 37px;
+    }
 }
