@@ -178,4 +178,6 @@ README icons created by using Segoe UI Sybol font
 
 [Google Fonts](https://fonts.google.com/) used for displaying Noto Sans and Source Sans Pro fonts 
 
+I was able to get the YouTube videos on the Artists page to scale nicely with the Bootstrap grid system thanks to [Chris Coyier's](https://css-tricks.com/author/chriscoyier/) tutorial on [Fluid Vidio Layout](https://css-tricks.com/fluid-width-video/) 
+
 
