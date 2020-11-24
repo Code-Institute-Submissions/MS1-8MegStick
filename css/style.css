@@ -41,6 +41,10 @@ h1 {
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: 300;
 }
+.row {
+    padding: 0px;
+    margin: 0px;
+}
 /*----------------------------------------- Navigation CSS */
 .navbar {
     padding: 0px;
@@ -259,8 +263,16 @@ section {
 }
 
 /*----------------------------------------- Artists CSS */
-.artist-name h1 {
-    line-height: 100%;
+.artist-comtainer {
+    padding: 0 10px 0 10px;
+}
+.artist-name, .artist-text, .artist-media {
+    padding-top: 20px;
+}
+.artist-name svg {
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 .artist-youtube {
     position: relative;
@@ -359,4 +371,9 @@ footer {
         width: 37px;
         height: 37px;
     }
+    .artist-name svg {
+    width: 90%;
+    display: inline-block;
+    margin: 0;
+}
 }
