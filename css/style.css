@@ -45,6 +45,9 @@ h1 {
     padding: 0px;
     margin: 0px;
 }
+.p-2 {
+    padding: 0!important;
+}
 /*----------------------------------------- Navigation CSS */
 .navbar {
     padding: 0px;
@@ -266,6 +269,12 @@ section {
 .artist-comtainer {
     padding: 0 10px 0 10px;
 }
+.artist-dark {
+    background-color: #d8d8d8;
+}
+.artist-light {
+    background-color: #f9f9f9;
+}
 .artist-name, .artist-text, .artist-media {
     padding-top: 20px;
 }
@@ -285,6 +294,49 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
+}
+/*----------------------------------------- Gallery */
+.ImgThumbnail {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 20%;
+}
+.artist-images {
+    padding: 20px 0 20px 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.modalImage {
+    margin: auto;
+    display: block;
+    width: 90%;
+    max-width: 700px;
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
 }
 
 /*----------------------------------------- Footer CSS */
@@ -375,5 +427,8 @@ footer {
     width: 90%;
     display: inline-block;
     margin: 0;
-}
+    }
+    .modalImage {
+    width: 75%;
+    }
 }
