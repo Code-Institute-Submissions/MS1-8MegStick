@@ -266,22 +266,25 @@ section {
 }
 
 /*----------------------------------------- CSS repeated across Artists, About and Contact pages */
-.artist-comtainer {
-    padding: 0 10px 0 10px;
+.content-container {
+    padding: 20px 0 20px 0;
 }
-.artist-dark {
+.container-dark {
     background-color: #d8d8d8;
 }
-.artist-light {
+.container-light {
     background-color: #f9f9f9;
 }
-.artist-name, .artist-text, .artist-media {
-    padding-top: 20px;
+.content-one, .content-two, .content-three {
+    padding: 0 20px 0 20px;
+    text-align: justify;
 }
-.artist-name svg {
-    width: 50%;
-    display: block;
-    margin: auto;
+.content-one svg {
+    width: 60%;
+    padding: 20px 0 20px 0;
+}
+.content-two p {
+    padding-top: 20px;
 }
 /*----------------------------------------- Artists CSS */
 .artist-youtube {
@@ -337,7 +340,7 @@ section {
 }
 .close:hover,
 .close:focus {
-    color: rgb(255, 0, 0);
+    color: #FFDD55;
     cursor: pointer;
 }
 
@@ -376,7 +379,7 @@ footer {
     transition: background-color 0.5s ease, color 0.5s ease;
     -webkit-transition: background-color 0.5s ease, color 0.5s ease;
     -moz-transition: background-color 0.5s ease, color 0.5s ease;
-    -o-: background-color 0.5s ease, color 0.5s ease;
+    -o-transition: background-color 0.5s ease, color 0.5s ease;
     background-color: #1a1a1a;
 
  }
