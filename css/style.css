@@ -9,22 +9,22 @@ font-family: 'Monoton', cursive;
 /*----------------------------------------- Release Covers */
 
 #mitti {
-    background-image: url(/images/mitticover.jpg);
+    background-image: url(images/mitticover.jpg);
 }
 #deepfake {
-    background-image: url(/images/deepfakecover.jpg);
+    background-image: url(images/deepfakecover.jpg);
 }
 #muchbetter {
-    background-image: url(/images/muchbettercover.jpg);
+    background-image: url(images/muchbettercover.jpg);
 }
 #prettypicture {
-    background-image: url(/images/prettypicturecover.jpg);
+    background-image: url(images/prettypicturecover.jpg);
 }
 #slippyguppy {
-    background-image: url(/images/slippyguppycover.jpg);
+    background-image: url(images/slippyguppycover.jpg);
 }
 #campfire {
-    background-image: url(/images/campfirecover.jpg);
+    background-image: url(images/campfirecover.jpg);
 }
 
 /*----------------------------------------- General CSS */
@@ -134,7 +134,7 @@ h2 {
 .hero {
     width: 100%;
     height: 80vh;
-    background-image: url(/images/phone-img.png);
+    background-image: url(images/phone-img.png);
     background-position: left bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -446,7 +446,7 @@ footer {
     display: block;
     float: left;
     margin-left: 25px;
-    background-image: url(/images/8meg-rm.png);
+    background-image: url(images/8meg-rm.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -479,20 +479,22 @@ footer {
 /*----------------------------------------- Media Queries CSS */
 @media (min-width: 412px) {
     .hero {
-        background-image: url(/images/tablet-img.png);
+        background-image: url(images/tablet-img.png);
     }
     .release-container {
         border: 1px solid #dcdcdc;
         border-radius: 4px;
     }
 }
+@media (min-width: 576px) {
+        .hero {
+        background-image: url(images/desktop-img.png);
+    }
 @media (min-width: 992px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
+        .navbar-expand-lg .navbar-nav .nav-link {
         width: 125px;
     }
-    .hero {
-        background-image: url(/images/desktop-img.png);
-    }
+@media (min-width: 1200px) {
   .release-container {
         width: 320px;
         height: 470px;
@@ -527,4 +529,5 @@ footer {
     .modalImage {
     width: 75%;
     }
+}
 }
