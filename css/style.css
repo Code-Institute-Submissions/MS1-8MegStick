@@ -446,7 +446,7 @@ footer {
     display: block;
     float: left;
     margin-left: 25px;
-    background-image: url(images/8meg-rm.png);
+    background-image: url("../images/8meg-rm.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
