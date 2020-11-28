@@ -267,7 +267,7 @@ section {
 
 /*----------------------------------------- CSS repeated across Artists, About and Contact pages */
 .content-container {
-    padding: 20px 0 20px 0;
+    padding: 40px 0 40px 0;
 }
 .container-dark {
     background-color: #d8d8d8;
@@ -281,12 +281,22 @@ section {
 }
 .content-one svg {
     width: 60%;
-    padding: 20px 0 20px 0;
 }
 .content-two p {
     padding-top: 20px;
 }
 /*----------------------------------------- Artists CSS */
+.artist-social-links a {
+    font-size: 150%;
+    color: #1a1a1a;
+    transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+}
+.artist-social-links a:hover {
+    color: #D4AA00;
+}
 .artist-youtube {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -299,6 +309,9 @@ section {
   width: 100%;
   height: 100%;
 }
+.artist-images {
+    padding: 20px 20px 0px 20px;
+}
 /*----------------------------------------- Gallery */
 .ImgThumbnail {
     border-radius: 5px;
@@ -307,10 +320,6 @@ section {
     width: 50px;
     max-height: 50px;
 }
-.artist-images {
-    padding: 20px 20px 40px 20px;
-}
-
 .modal {
     display: none;
     position: fixed;
@@ -375,13 +384,12 @@ footer {
     font-size: 13px;
     line-height: 10px;
     text-align: center;
+   background-color: #1a1a1a;
     color: #f9f9f9;
     transition: background-color 0.5s ease, color 0.5s ease;
     -webkit-transition: background-color 0.5s ease, color 0.5s ease;
     -moz-transition: background-color 0.5s ease, color 0.5s ease;
     -o-transition: background-color 0.5s ease, color 0.5s ease;
-    background-color: #1a1a1a;
-
  }
   .footer-links li a i:hover {
     background-color: #80FFE6;
@@ -432,6 +440,9 @@ footer {
     width: 90%;
     display: inline-block;
     margin: 0;
+    }
+    .content-two p {
+        padding-top: 0px;
     }
     .modalImage {
     width: 75%;
