@@ -7,7 +7,9 @@ font-family: 'Monoton', cursive;
 */
 
 /*----------------------------------------- Release Covers */
-
+#gformations {
+    background-image: url("../images/gformationscover.jpg");
+}
 #mitti {
     background-image: url("../images/mitticover.jpg");
 }

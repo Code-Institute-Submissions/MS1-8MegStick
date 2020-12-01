@@ -7,6 +7,8 @@
 their musical releases.
 >
 
+The site has been deployed via Github https://paulwheatcroft.github.io/MS1-8MegStick/
+
 3 sets of target personas have been identified:
 
 - Music enthusiast
