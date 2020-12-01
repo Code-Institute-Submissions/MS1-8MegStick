@@ -264,9 +264,16 @@ main {
 .release-details ul {
     margin-top: 15px;
 }
-.release-details ul li a svg {
+.release-icon svg {
     width: 25px;
     height: 25px;
+    transition: padding 0.5s ease;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+}
+.release-icon svg:hover {
+    padding: 0 5px 0 5px;
 }
 
 /*----------------------------------------- CSS repeated across Artists, About and Contact pages */

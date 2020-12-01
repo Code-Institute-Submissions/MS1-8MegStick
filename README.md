@@ -168,6 +168,12 @@ A Figma wireframe for each page can be found in the links Below.
 
 [Contact](https://www.figma.com/file/lbEOracgvjZ4jw3uFd6hJd/8-Meg-Stick-Records?node-id=49%3A207)
 
+## Design Choices
+
+I decided to go with the hero text centrally aligned as it suited the final images more.
+
+I had to use SVG files for the streaming link icons as not all were available in FontAwesome.
+
 ## Bugs
 
 Not able to view html div visual representation of colour swatch in GitHub even though it displays correctly in thr README.md preview.
@@ -180,7 +186,9 @@ Do I need p-2 on an IMG? It seems I don't but need to check
 
 README icons created by using Segoe UI Sybol font
 
-[Google Fonts](https://fonts.google.com/) used for displaying Noto Sans and Source Sans Pro fonts 
+[Google Fonts](https://fonts.google.com/) used for displaying Noto Sans and Source Sans Pro fonts
+
+The streaming icons were downloaded from https://simpleicons.org/
 
 I was able to get the YouTube videos on the Artists page to scale nicely with the Bootstrap grid system thanks to [Chris Coyier's](https://css-tricks.com/author/chriscoyier/) tutorial on [Fluid Vidio Layout](https://css-tricks.com/fluid-width-video/) 
 
