@@ -50,14 +50,14 @@ This persona will be interested in understanding the suitability and capability 
 
 Using the targeted personas the following list of user stories have been identified to fullfil their needs.
 
-- I can find links to tracks on streaming sites
-- I can find out information on an artist
-- I can receive updates on new releases
-- I can listen to what the artist sounds like
-- I can find out about the label
-- I can contact the label to send my demo
-- I can watch a video of an artist
-- I can contact the label about an artist
+- as a music enthusiast I can find links to tracks on streaming sites
+- as a user I can find out information on an artist
+- as a user I can receive updates on new releases
+- as a user I can listen to what the artist sounds like
+- as a user I can find out about the label
+- as a user I can contact the label to send my demo
+- as a live music promoter I can watch a video of an artist
+- as a user I can contact the label about an artist
 
 ## Design Choices
 

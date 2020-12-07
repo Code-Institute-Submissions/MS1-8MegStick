@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 497.01948 121.86497"
+   height="34.393002mm"
+   width="140.26994mm">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4170">
+      <stop
+         id="stop4172"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         id="stop4174"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0;" />
+    </linearGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.15993725,0,357.99086)"
+       r="248.767"
+       fy="426.14777"
+       fx="374.09094"
+       cy="426.14777"
+       cx="374.09094"
+       id="radialGradient4176"
+       xlink:href="#linearGradient4170" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-125.33847,-386.86066)"
+     id="layer1">
+    <text
+       id="text4136"
+       y="448.07648"
+       x="124.85715"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:-2.57999992px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90px;font-family:'Cooper Black';-inkscape-font-specification:'Cooper Black, ';fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-opacity:1"
+         y="448.07648"
+         x="124.85715"
+         id="tspan4138">8 Meg Stick</tspan></text>
+    <text
+       id="text4140"
+       y="507.66605"
+       x="118.50253"
+       style="font-style:normal;font-weight:normal;font-size:70px;line-height:125%;font-family:sans-serif;letter-spacing:37.90999985px;word-spacing:0px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="letter-spacing:37.90999985px;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-opacity:1"
+         y="507.66605"
+         x="118.50253"
+         id="tspan4142">Records</tspan></text>
+  </g>
+</svg>
