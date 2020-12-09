@@ -365,6 +365,19 @@ main {
     color: #FFDD55;
     cursor: pointer;
 }
+/*----------------------------------------- About CSS */
+.about-logo {
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/8meglogo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #b3b3b3;
+    margin-bottom: 16px;
+}
 /*----------------------------------------- Contact CSS */
 .contact-h2 {
     display: block;
