@@ -9,6 +9,8 @@ their musical releases.
 
 The site has been deployed via Github https://paulwheatcroft.github.io/MS1-8MegStick/
 
+## User Experince (UX)
+
 3 sets of target personas have been identified:
 
 - Music enthusiast
@@ -36,7 +38,7 @@ A musician will use the website to review the music released by the label with a
 - Links to released music
 - Be able to contact the label
 
-### Live Music Promoter
+### Music Promoter
 
 <img src="images/promoter.png" style="margin: 0;">
 
@@ -50,12 +52,12 @@ This persona will be interested in understanding the suitability and capability 
 
 Using the targeted personas the following list of user stories have been identified to fullfil their needs.
 
-- as a music enthusiast I can find links to tracks on streaming sites
-- as a user I can find out information on an artist
-- as a user I can receive updates on new releases
-- as a user I can listen to what the artist sounds like
-- as a user I can find out about the label
-- as a user I can contact the label to send my demo
+- As a music enthusiast I want to easily find links to tracks on music streaming sites
+- As a music enthusiast I want to be able to find out information on an artist
+- As a user I can receive updates on new releases
+- as a musician I can find out information about the record label
+- as a musician I can contact the label to send my demo
+- As a music promoter I can listen to what the artist sounds like
 - as a live music promoter I can watch a video of an artist
 - as a user I can contact the label about an artist
 
@@ -63,7 +65,7 @@ Using the targeted personas the following list of user stories have been identif
 
 The persona that 8 Meg Stick Records wish to primarily target are likely to be viewing the site on a phone. Therefore the site will be a mobile first approach.
 
-The number one feature is links from each release to 6 of the most popular streaming platforms. There are:
+The number one feature is links from each release to 6 of the most popular streaming platforms. These are:
 
 - Spotify
 - Apple Music
@@ -80,11 +82,13 @@ accents on the website. Bold use of band photograpy and imagery is encouraged.
 
 | Description | Hex Colour Value | Visual |
 | --- | ----------- | --- |
-| Dark grey which can be used extensively | #1a1a1a | <div markdown="1" style="background-color:#1a1a1a;color:#1a1a1a;">------</div> |
-| Off white which can be used extensively | #f9f9f9 | <div style="background-color:#f9f9f9;color:#f9f9f9;" markdown="1">------</div> |
-| Light yellow to be used as a primary colour | #ffdd55 | <div style="background-color:#ffdd55;color:#ffdd55;" markdown="1">------</div> |
-| Darker yellow to be used as a secondary supportive colour | #d4aa00 | <div style="background-color:#d4aa00;color:#d4aa00;" markdown="1">------</div> |
-| Sky blue to be used as a main highlight colour | #80ffe6 | <div style="background-color:#80ffe6;color:#80ffe6;" markdown="1">------</div> |
+| Dark grey which can be used extensively | #1a1a1a |
+| Off white which can be used extensively | #f9f9f9 |
+| Light yellow to be used as a primary colour | #ffdd55 |
+| Darker yellow to be used as a secondary supportive colour | #d4aa00 |
+| Sky blue to be used as a main highlight colour | #80ffe6 |
+| Complimentive and supporting pink highlight colour | #FFAEAE |
+| Complimentive and supporting green highlight colour | #B7FFA5 |
 
 
 The main font used in the 8 Meg Stick Records logo is not available as a web font. This is a serif font. No other serif fonts should be used as may detract from the logo. 
@@ -104,15 +108,15 @@ To ensure the experience is focussed on the releases this will be a multi-page w
 3. about the label
 4. contact
 
-There will be a horizontal navigation bar at the top of each page facilitating access to other pages on the site. This navigation element will collaps on a mobile device.
+There is a horizontal navigation bar at the top of each page facilitating access to other pages on the site. This navigation element will collaps on a mobile device.
 
-The index.html page will contain the releases contect as this is the main focus of the site. All other pages will follow a consistent look and feel to the main page including 
+The index.html page will contain the releases contect as this is the main focus of the site. All other pages follow a consistent look and feel to the main page including 
 the same footer element which contain the record labels social media links.
 
 ### The Releases Page
 
-The top of the page needs to consist of strong imagery of the latest release or next up and coming release from the record label. This section needs to enable the 
-viewer to sign up for new music release alerts from the label. This section needs to take up most but not all of the viewing area as to reveal the releases
+The top of the page consist of strong imagery advertising the latest release or next up and coming release from the record label. This section enables the 
+viewer to sign up for new music release alerts from the label. This section needed to take up most but not all of the viewing area as to reveal the releases
 beneath the hero image. The releases will be in in chronological order of their release. 
 Each release section should display:
 
@@ -123,8 +127,8 @@ Each release section should display:
 
 ### The Atists Page
 
-Beneath the navigation bar which is common to all of the pages the artists page will contain a section on each artist. This will progress down the page in alphabetical order. 
-Each artist section will contain:
+Beneath the navigation bar which is common to all of the pages the artists page will contain a section on each artist. This progresses down the page in alphabetical order. 
+Each artist section contains:
 
 - Artist name
 - Biography of the artist
@@ -141,8 +145,6 @@ Beneath the navigation bar which is common to all of the pages the artists page 
 - An overview of the record label
 - Outline the record label ethos and musical direction
 - link to a form to submit a demo
-- Link to a form to register for notifications of new releases
-- Link to a general contact form
 
 ### The Contact Page
 
@@ -172,13 +174,13 @@ A Figma wireframe for each page can be found in the links Below.
 
 I decided to go with the hero text centrally aligned as it suited the final images more.
 
-I had to use SVG files for the streaming link icons as not all were available in FontAwesome.
+SVG files were used for the streaming link icons as not all were available in FontAwesome.
+
+Bootstrap was used throughout the website build as this was a rapid way to build the structure of the site. Using BootStap's Flex element in the hero image will ensure that the positioning  of the text elements used in the hero image can be ealisy changed to suite the promotional image of that specific music release.
 
 ## Bugs
 
-Not able to view html div visual representation of colour swatch in GitHub even though it displays correctly in thr README.md preview.
-
-Do I need p-2 on an IMG? It seems I don't but need to check
+None worth noting pre user testing phase.
 
 ## Acknowledgements
 
@@ -194,5 +196,9 @@ I was able to get the YouTube videos on the Artists page to scale nicely with th
 
 A simple [modal image solution](https://www.tutorialspoint.com/how-to-create-a-modal-image-gallery-with-css-and-javascript) from [AmitDiwan](https://www.tutorialspoint.com/answers/amitdiwan) was used on the Artists page. 
 
+Thanks to [Mohammad-usman's](https://stackoverflow.com/users/5933656/mohammad-usman) answer to this [question](https://stackoverflow.com/questions/38850419/how-to-create-multi-color-border-with-css) about mulitple colours on a border.
+
 https://www.svgminify.com/
+
+https://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-chrome-version-o
 
