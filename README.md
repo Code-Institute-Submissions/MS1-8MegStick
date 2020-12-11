@@ -180,9 +180,21 @@ Bootstrap was used throughout the website build as this was a rapid way to build
 
 I put the releases background CSS at the top of the files for easy access when new music is released.
 
-## Bugs
+## Technologies
 
-None worth noting pre user testing phase.
+## Testing
+
+Both HTML and CSS have been validated via
+
+- W3C Nu HTML Checker [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Findex.html)
+- W3C CSS Validation Service [Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Bugs and issues
+
+I encountered an issue with syntax when displaying and image. The site would like fine in Gitpod but the images would be missing when viewing the site via Github. This was down to relative paths of the images when referenced withing the CSS file.
+
+I initially started using SVG files directly in the code but some of the strings were so large it cause an error in Gitpod. I switched to referencing the .svg file instead. I also had an issue where the navbar text logo SVG stopped rendering properly.
+
 
 ## Acknowledgements
 
