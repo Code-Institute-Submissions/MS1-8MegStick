@@ -60,7 +60,6 @@ h2 {
     padding: 0px;
     text-align: center;
 }
-
 .my-dark {
     background-color: #1a1a1a;
 }
@@ -73,7 +72,6 @@ h2 {
     width: 155px;
     padding-left: 25px
 }
-
 #releases {
     background-color: #FFDD55;
     transition: background-color 0.5s ease;
@@ -122,16 +120,13 @@ h2 {
     border-color: #f9f9f9;
     outline: none;
 }
-
 #menu-lines {
     color: #f9f9f9;
 }
-
 .headings h1 {
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: 300;
 }
-
 /*----------------------------------------- hero */
 .hero {
     width: 100%;
@@ -164,12 +159,11 @@ h2 {
     line-height: 100%;
     padding-bottom: 5px;
 }
-
 .myButton {
 	width: 150px;
     line-height: 50px;
     text-align: center;
-    background-color: rgb(rgba(233, 233, 233, 0.219));
+    background-color: rgba(233, 233, 233, 0.219);
 	border: 3px solid #f9f9f9;
     border-radius: 2px;
 	display: block;
@@ -179,7 +173,6 @@ h2 {
 	text-shadow: 0px 0px 4px #646464;
     margin: 0px auto;
 }
-
 .myButton:hover {
 	background-color: #f9f9f97c;
     color: #f9f9f9;
@@ -222,7 +215,6 @@ h2 {
   left: 0;
   top: 0;
 }
-
 /*----------------------------------------- Releases CSS */
 main {
     position: relative;
@@ -230,7 +222,6 @@ main {
     padding-right: 25px;
     padding-bottom: 25px;
 }
-
 .release-container {
     width: 250px;
     height: 360px;
@@ -275,7 +266,6 @@ main {
 .release-icon img:hover {
     padding: 0 5px 0 5px;
 }
-
 /*----------------------------------------- CSS repeated across Artists, About and Contact pages */
 .content-container {
     padding: 40px 0 40px 0;
@@ -412,7 +402,7 @@ main {
     padding-top: 10px;
     border-radius: 2px;
     font-family: 'Noto Sans', sans-serif;
-    font-weight: 300px;
+    font-weight: 300;
     transition: border-color 0.5s ease;
     -webkit-transition: border-color 0.5s ease;
     -moz-transition: border-color 0.5s ease;
@@ -551,5 +541,6 @@ footer {
     .modalImage {
     width: 75%;
     }
+}
 }
 }

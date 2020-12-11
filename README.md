@@ -80,15 +80,15 @@ be professional but not corporate.
 Below is the brand colour pallet for 8 Meg Stick Records. Whilst these form the foundation of the colour scheme other strong colours will be required to support vibrant 
 accents on the website. Bold use of band photograpy and imagery is encouraged.
 
-| Description | Hex Colour Value | Visual |
-| --- | ----------- | --- |
+| Description | Hex Colour Value |
+| --- | ----------- |
 | Dark grey which can be used extensively | #1a1a1a |
 | Off white which can be used extensively | #f9f9f9 |
 | Light yellow to be used as a primary colour | #ffdd55 |
 | Darker yellow to be used as a secondary supportive colour | #d4aa00 |
 | Sky blue to be used as a main highlight colour | #80ffe6 |
-| Complimentive and supporting pink highlight colour | #FFAEAE |
-| Complimentive and supporting green highlight colour | #B7FFA5 |
+| Complimentive and supporting pink highlight colour | #ffaeae |
+| Complimentive and supporting green highlight colour | #b7ffa5 |
 
 
 The main font used in the 8 Meg Stick Records logo is not available as a web font. This is a serif font. No other serif fonts should be used as may detract from the logo. 
@@ -177,6 +177,8 @@ I decided to go with the hero text centrally aligned as it suited the final imag
 SVG files were used for the streaming link icons as not all were available in FontAwesome.
 
 Bootstrap was used throughout the website build as this was a rapid way to build the structure of the site. Using BootStap's Flex element in the hero image will ensure that the positioning  of the text elements used in the hero image can be ealisy changed to suite the promotional image of that specific music release.
+
+I put the releases background CSS at the top of the files for easy access when new music is released.
 
 ## Bugs
 
