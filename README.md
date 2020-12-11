@@ -195,6 +195,8 @@ I encountered an issue with syntax when displaying and image. The site would lik
 
 I initially started using SVG files directly in the code but some of the strings were so large it cause an error in Gitpod. I switched to referencing the .svg file instead. I also had an issue where the navbar text logo SVG stopped rendering properly.
 
+Both the Youtube embed and the modal gallery code i used returned validation issues when checked through the Wc3 Nu HTML Checker. These were easily corrected.
+
 
 ## Acknowledgements
 
