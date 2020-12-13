@@ -182,7 +182,67 @@ I put the releases background CSS at the top of the files for easy access when n
 
 ## Technologies
 
+### Languages Used
+
+- HTML5
+- CSS3
+
+### Frameworks, Libraries & Programs Used
+
+- Bootstrap 4.4.1: Bootstrap was used to assist with the framework build and responsiveness of the website.
+- Google Fonts: Google fonts were used to import the 'Noto Sans', 'Noto Sans TC' and 'Monoton' font into the style.css file which is used on all pages throughout the project.
+- Font Awesome: Font Awesome was used on all pages throughout the website for social media icons.
+- jQuery: jQuery came with Bootstrap to make the navbar responsive.
+- Javascript: A small JavaScript program was used to facility the artist galleries.
+- Git: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- Gitpod: Gitpod was used as the development environment.
+- GitHub: GitHub is used to store the projects code after being pushed from Git.
+- Photoshop: Photoshop was used extensively to create artist images includnig the hero images.
+- Inkscape: Inkscape was used to create SVG files where needed such as the artist's logo.
+- Figma: Figma was used to create the wireframes during the design process.
+
 ## Testing
+
+### Testing User Stories from User Experience (UX) Section
+
+
+-	Music Enthusiast Visitor Goals
+    -	As a music enthusiast I want to easily find links to tracks on music streaming sites.
+        1.   Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image advertising the latest upcoming release which takes up most of the screen, just beneath the hero image is the Releases heading which is partially visible indicating more below.
+        2.   The user has two options, use the menu item at the top of the page labelled Releases or scroll down the page, both of which will lead to the same place, which is a section on each of the releases in the 8 Meg Stick Records catalogue.
+        3.  The user can now select the streaming icon of their choice for each of the releases. This will open separately in the browser or in the relevant app if available locally.
+    -   As a music enthusiast I want to be able to find out information on an artist.
+        1.  The site has been designed with easy and understandable navigation at the top of each page where there is a clean navigation element, each link describes what the destination page is for.
+        2.  When the user clicks the Artists link, they are presented with a page that contains information on each artists signed to 8 Meg Stick Records.
+        3.  Within each artist’s section the user can play a video withing the page.
+        4.  The user can also click on thumbnail images to open a larger image to see images of the artists and their associated artwork.
+        5.  Furthermore, within each section the user is presented with the opportunity to link through to each artist’s own social media and websites where applicable.
+    -   As a music enthusiast I can receive updates on new releases.
+        1.  Upon entering the site, by default users are greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image advertising the latest upcoming release which takes up most of the screen containing a call to action button to be notified of releases.
+        2.  The user can click this button to be specifically taken through to the Get email alerts for on the Get in Touch page.
+        3.  From here the user can sign up to receive email alerts.
+
+-	Musician Visitor Goals
+    -   As a musician I can find out information about the record label.
+        1.  The site has been designed with easy and understandable navigation at the top of each page where there is a clean navigation element, each link describes what the destination page is for.
+        2.  When the user clicks the “About” link, they are presented with a page that contains information on 8 Meg Stick Records.
+        3.  The user can also find the label’s social media links in the footer of every page.
+    -   As a musician I can contact the label to send in my demo.
+        1.  The navigation bar clearly highlights the "Get in Touch" Page.
+        2.  Here they can fill out the form on the page including a link to their music.
+
+-	Live Music Promoter Visitor Goals
+    -   As a live music promoter I can listen to what the artist sounds like.
+        1.  Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Beneath the Hero Image advertising the latest upcoming release there is the Releases heading which is partially visible indicating more below.
+        2.  The user has two options, use the menu item at the top of the page labelled Releases or scroll down the page, both of which will lead to the same place, which is a section on each of the releases in the 8 Meg Stick Records catalogue. The user can play the music from the artist they are interested in from here.
+        3.  The user can play a YouTube video directly in the webpage. For some of the Artists this will be one of the music releases.
+    -   As a live music promoter I can watch a video of an artist.
+        1.  The navigation bar clearly highlights the "Artists" Page.
+        2.  If the artist has one then the embedded YouTube video associated with their profile will be available to play in the browser. That artists section will also contain a link to their YouTube channel.
+    -   As a live music promoter I can contact the label about an artist.
+        1.  The navigation bar clearly highlights the "Contact Us" Page.
+        2.  Here they can fill out the form on the page titled Any other reason! The description for the form states it is for live bookings or partnership opportunities.
+
 
 Both HTML and CSS have been validated via
 
@@ -199,17 +259,21 @@ A code review was posted in the Code Institute peer-code-review channel. Followi
 
 I used a wide group of friends and family to test the user stories across the following operating systems and browsers.
 
-- Windows
+- Windowsm (multiple computers)
     - Internet Explorer 11
     - Microsoft Edge
     - Chrome
     - Firefox
     - Opera
-- Android
+- macOS (MacBook Air)
+    - Safari
+- Android (OPPO Reno 2, Nokia 3.2, Huawei P Smart 2019)
     - Native OPPO handset browser
     - Chrome browser
+- iOS (iPhone 7, iPhoneX, iPhone SE)
+    - Safari
 
-Functional testing was carried out and recorded in [functional-testing.xlsx](functional-testing.xlsx)
+Functional testing was carried out against every element to ensure everything worked and was linked as expected. This was recorded in [functional-testing.xlsx](functional-testing.xlsx)
 
 ## Bugs and issues
 
@@ -219,12 +283,21 @@ I initially started using SVG files directly in the code but some of the strings
 
 Both the Youtube embed and the modal gallery code i used returned validation issues when checked through the Wc3 Nu HTML Checker. These were corrected to comply.
 
+## Deployment
+
+The Project has been deployed via Github Pages. To do this:
+
+1.  Log in to GitHub and locate the GitHub Repository
+2.  At the top of the Repository locate the "Settings" Button on the menu.
+3.  Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4.  Under "Source", click the dropdown called "None" and select "Master Branch". The page will automatically refresh.
+5.  Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 ## Acknowledgements
 
 [Mark Down Guide](https://www.markdownguide.org/)
 
-README icons created by using Segoe UI Sybol font
+README icons created by using Segoe UI Sybol font and InkScape
 
 [Google Fonts](https://fonts.google.com/) used for displaying Noto Sans and Source Sans Pro fonts
 
@@ -232,9 +305,14 @@ The streaming icons were downloaded from https://simpleicons.org/
 
 I was able to get the YouTube videos on the Artists page to scale nicely with the Bootstrap grid system thanks to [Chris Coyier's](https://css-tricks.com/author/chriscoyier/) tutorial on [Fluid Vidio Layout](https://css-tricks.com/fluid-width-video/) 
 
-A simple [modal image solution](https://www.tutorialspoint.com/how-to-create-a-modal-image-gallery-with-css-and-javascript) from [AmitDiwan](https://www.tutorialspoint.com/answers/amitdiwan) was used on the Artists page. 
+A simple [modal image solution](https://www.tutorialspoint.com/how-to-create-a-modal-image-gallery-with-css-and-javascript) from [Amit Diwan](https://www.tutorialspoint.com/answers/amitdiwan) was used on the Artists page. 
 
 Thanks to [Mohammad Usman's](https://stackoverflow.com/users/5933656/mohammad-usman) answer to this [question](https://stackoverflow.com/questions/38850419/how-to-create-multi-color-border-with-css) about mulitple colours on a border.
 
 I used this page on Stackoverflow to implement a [browser colour change on mobile](https://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-chrome-version-o)
 
+## Further Development Ideas
+
+- It would be nice if the Notify Me button in the hero image on the Releases page opened the form in a modal box overlaying the Releases page.
+- The JavaScript gallery used is adequate but not as elegant as it could be. For instance the thumbnails are squashed images.
+- It may be necessary to introduce pagination for the releases in future. Especially on a mobile phone view.
