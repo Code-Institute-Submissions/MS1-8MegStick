@@ -3,13 +3,13 @@
 # 8 Meg Stick Records
 
 >
-> 8 Meg Stick Records is an emerging independent digital record label with a small roster of artists and releases. The label require a website to showcase 
+> 8 Meg Stick Records is an emerging independent digital record label with a small roster of artists and releases. The label requires a website to showcase 
 their musical releases.
 >
 
 The site has been deployed via Github https://paulwheatcroft.github.io/MS1-8MegStick/
 
-## User Experince (UX)
+## User Experience (UX)
 
 3 sets of target personas have been identified:
 
@@ -50,7 +50,7 @@ This persona will be interested in understanding the suitability and capability 
 
 ### User Stories
 
-Using the targeted personas the following list of user stories have been identified to fullfil their needs.
+Using the targeted personas, the following list of user stories have been identified to fulfil their needs.
 
 - As a music enthusiast I want to easily find links to tracks on music streaming sites
 - As a music enthusiast I want to be able to find out information on an artist
@@ -78,7 +78,7 @@ The look and feel of the site needs to be built around the 8 Meg Stick Records b
 be professional but not corporate.
 
 Below is the brand colour pallet for 8 Meg Stick Records. Whilst these form the foundation of the colour scheme other strong colours will be required to support vibrant 
-accents on the website. Bold use of band photograpy and imagery is encouraged.
+accents on the website. Bold use of band photography and imagery is encouraged.
 
 | Description | Hex Colour Value |
 | --- | ----------- |
@@ -87,8 +87,8 @@ accents on the website. Bold use of band photograpy and imagery is encouraged.
 | Light yellow to be used as a primary colour | #ffdd55 |
 | Darker yellow to be used as a secondary supportive colour | #d4aa00 |
 | Sky blue to be used as a main highlight colour | #80ffe6 |
-| Complimentive and supporting pink highlight colour | #ffaeae |
-| Complimentive and supporting green highlight colour | #b7ffa5 |
+| Complimentary supporting  pink highlight colour | #ffaeae |
+| Complimentary supporting  green highlight colour | #b7ffa5 |
 
 
 The main font used in the 8 Meg Stick Records logo is not available as a web font. This is a serif font. No other serif fonts should be used as may detract from the logo. 
@@ -108,14 +108,14 @@ To ensure the experience is focussed on the releases this will be a multi-page w
 3. about the label
 4. contact
 
-There is a horizontal navigation bar at the top of each page facilitating access to other pages on the site. This navigation element will collaps on a mobile device.
+There is a horizontal navigation bar at the top of each page facilitating access to other pages on the site. This navigation element will collapse on a mobile device.
 
-The index.html page will contain the releases contect as this is the main focus of the site. All other pages follow a consistent look and feel to the main page including 
+The index.html page will contain the releases connect as this is the main focus of the site. All other pages follow a consistent look and feel to the main page including 
 the same footer element which contain the record labels social media links.
 
 ### The Releases Page
 
-The top of the page consist of strong imagery advertising the latest release or next up and coming release from the record label. This section enables the 
+The top of the page consists strong imagery advertising the latest release or next up and coming release from the record label. This section enables the 
 viewer to sign up for new music release alerts from the label. This section needed to take up most but not all of the viewing area as to reveal the releases
 beneath the hero image. The releases will be in in chronological order of their release. 
 Each release section should display:
@@ -125,7 +125,7 @@ Each release section should display:
 - Cover art
 - Links to streaming services
 
-### The Atists Page
+### The Artists Page
 
 Beneath the navigation bar which is common to all of the pages the artists page will contain a section on each artist. This progresses down the page in alphabetical order. 
 Each artist section contains:
@@ -148,7 +148,7 @@ Beneath the navigation bar which is common to all of the pages the artists page 
 
 ### The Contact Page
 
-Beneath the navigation bar which is common to all of the pages the artists page will contain 3 forms.
+Beneath the navigation bar which is common to all of the pages the contact page will contain 3 forms.
 
 1. A form to register or notifications of new releases
 2. A form to submit a demo
@@ -176,7 +176,7 @@ I decided to go with the hero text centrally aligned as it suited the final imag
 
 SVG files were used for the streaming link icons as not all were available in FontAwesome.
 
-Bootstrap was used throughout the website build as this was a rapid way to build the structure of the site. Using BootStap's Flex element in the hero image will ensure that the positioning  of the text elements used in the hero image can be ealisy changed to suite the promotional image of that specific music release.
+Bootstrap was used throughout the website build as this was a rapid way to build the structure of the site. Using Bootstrap's Flex element in the hero image will ensure that the positioning of the text elements used in the hero image can be easily changed to suite the promotional image of that specific music release.
 
 I put the releases background CSS at the top of the files for easy access when new music is released.
 
@@ -186,8 +186,30 @@ I put the releases background CSS at the top of the files for easy access when n
 
 Both HTML and CSS have been validated via
 
-- W3C Nu HTML Checker [Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Findex.html)
-- W3C CSS Validation Service [Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- W3C [Nu HTML Checker](https://validator.w3.org/nu/)
+    - [index.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Findex.html)
+    - [artists.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fartists.html)
+    - [about.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fabout.html)
+    - [contact.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fcontact.html)
+- W3C CSS Validation Service [CSS Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+Responsiveness was checked thought using the Google dev tools and the https://www.responsinator.com/ 
+
+A code review was posted in the Code Institute peer-code-review channel. Following feedback i mage changes to the footer logo image to link back to the Releases page.
+
+I used a wide group of friends and family to test the user stories across the following operating systems and browsers.
+
+- Windows
+    - Internet Explorer 11
+    - Microsoft Edge
+    - Chrome
+    - Firefox
+    - Opera
+- Android
+    - Native OPPO handset browser
+    - Chrome browser
+
+Functional testing was carried out and recorded in [functional-testing.xlsx](functional-testing.xlsx)
 
 ## Bugs and issues
 
@@ -195,7 +217,7 @@ I encountered an issue with syntax when displaying and image. The site would lik
 
 I initially started using SVG files directly in the code but some of the strings were so large it cause an error in Gitpod. I switched to referencing the .svg file instead. I also had an issue where the navbar text logo SVG stopped rendering properly.
 
-Both the Youtube embed and the modal gallery code i used returned validation issues when checked through the Wc3 Nu HTML Checker. These were easily corrected.
+Both the Youtube embed and the modal gallery code i used returned validation issues when checked through the Wc3 Nu HTML Checker. These were corrected to comply.
 
 
 ## Acknowledgements
@@ -212,9 +234,7 @@ I was able to get the YouTube videos on the Artists page to scale nicely with th
 
 A simple [modal image solution](https://www.tutorialspoint.com/how-to-create-a-modal-image-gallery-with-css-and-javascript) from [AmitDiwan](https://www.tutorialspoint.com/answers/amitdiwan) was used on the Artists page. 
 
-Thanks to [Mohammad-usman's](https://stackoverflow.com/users/5933656/mohammad-usman) answer to this [question](https://stackoverflow.com/questions/38850419/how-to-create-multi-color-border-with-css) about mulitple colours on a border.
+Thanks to [Mohammad Usman's](https://stackoverflow.com/users/5933656/mohammad-usman) answer to this [question](https://stackoverflow.com/questions/38850419/how-to-create-multi-color-border-with-css) about mulitple colours on a border.
 
-https://www.svgminify.com/
-
-https://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-chrome-version-o
+I used this page on Stackoverflow to implement a [browser colour change on mobile](https://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-chrome-version-o)
 
