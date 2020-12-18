@@ -7,7 +7,7 @@
 their musical releases.
 >
 
-The site has been deployed via Github https://paulwheatcroft.github.io/MS1-8MegStick/
+The site has been deployed via GitHub https://paulwheatcroft.github.io/MS1-8MegStick/
 
 ## User Experience (UX)
 
@@ -255,11 +255,11 @@ Both HTML and CSS have been validated via
 
 Responsiveness was checked thought using the Google dev tools and the https://www.responsinator.com/ 
 
-A code review was posted in the Code Institute peer-code-review channel. Following feedback i mage changes to the footer logo image to link back to the Releases page.
+A code review was posted in the Code Institute peer-code-review channel. Following feedback I changed the footer logo image to link back to the Releases page.
 
 I used a wide group of friends and family to test the user stories across the following operating systems and browsers.
 
-- Windowsm (multiple computers)
+- Windows (multiple computers)
     - Internet Explorer 11
     - Microsoft Edge
     - Chrome
@@ -311,8 +311,11 @@ Thanks to [Mohammad Usman's](https://stackoverflow.com/users/5933656/mohammad-us
 
 I used this page on Stackoverflow to implement a [browser colour change on mobile](https://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-chrome-version-o)
 
+The footter Social media links were amended from those used in the Code Institue HTML/CSS Project - Love Running.
+
 ## Further Development Ideas
 
+- For ease of administration it would be beneficial to create a form that could populate the new releases meaning someone non-technical could add these to the page.
 - It would be nice if the Notify Me button in the hero image on the Releases page opened the form in a modal box overlaying the Releases page.
 - The JavaScript gallery used is adequate but not as elegant as it could be. For instance the thumbnails are squashed images.
 - It may be necessary to introduce pagination for the releases in future. Especially on a mobile phone view.
