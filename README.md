@@ -253,6 +253,8 @@ Both HTML and CSS have been validated via
     - [contact.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fcontact.html)
 - W3C CSS Validation Service [CSS Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+Accessibility was checked at https://www.webaccessibility.com/
+
 Responsiveness was checked thought using the Google dev tools and the https://www.responsinator.com/ 
 
 A code review was posted in the Code Institute peer-code-review channel. Following feedback I changed the footer logo image to link back to the Releases page.
