@@ -321,7 +321,8 @@ main {
     cursor: pointer;
     transition: 0.3s;
     width: 50px;
-    max-height: 50px;
+    height: 50px;
+    margin: 5px 5px 5px 5px;
 }
 .modal {
     display: none;
