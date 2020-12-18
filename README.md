@@ -193,11 +193,11 @@ I put the releases background CSS at the top of the files for easy access when n
 - Google Fonts: Google fonts were used to import the 'Noto Sans', 'Noto Sans TC' and 'Monoton' font into the style.css file which is used on all pages throughout the project.
 - Font Awesome: Font Awesome was used on all pages throughout the website for social media icons.
 - jQuery: jQuery came with Bootstrap to make the navbar responsive.
-- Javascript: A small JavaScript program was used to facility the artist galleries.
+- JavaScript: A small JavaScript program was used to facility the artist galleries.
 - Git: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - Gitpod: Gitpod was used as the development environment.
 - GitHub: GitHub is used to store the projects code after being pushed from Git.
-- Photoshop: Photoshop was used extensively to create artist images includnig the hero images.
+- Photoshop: Photoshop was used extensively to create artist images including the hero images.
 - Inkscape: Inkscape was used to create SVG files where needed such as the artist's logo.
 - Figma: Figma was used to create the wireframes during the design process.
 
@@ -311,7 +311,7 @@ Thanks to [Mohammad Usman's](https://stackoverflow.com/users/5933656/mohammad-us
 
 I used this page on Stackoverflow to implement a [browser colour change on mobile](https://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-chrome-version-o)
 
-The footter Social media links were amended from those used in the Code Institue HTML/CSS Project - Love Running.
+The footer Social media links were amended from those used in the Code Institue HTML/CSS Project - Love Running.
 
 ## Further Development Ideas
 
