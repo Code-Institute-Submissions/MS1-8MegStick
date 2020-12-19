@@ -211,6 +211,8 @@ I put the releases background CSS at the top of the files for easy access when n
         1.   Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image advertising the latest upcoming release which takes up most of the screen, just beneath the hero image is the Releases heading which is partially visible indicating more below.
         2.   The user has two options, use the menu item at the top of the page labelled Releases or scroll down the page, both of which will lead to the same place, which is a section on each of the releases in the 8 Meg Stick Records catalogue.
         3.  The user can now select the streaming icon of their choice for each of the releases. This will open separately in the browser or in the relevant app if available locally.
+<img src="images/screenshots/releases-scroll.jpg" style="margin: 0;">  
+<img src="images/screenshots/releases-menu.jpg" style="margin: 0;">   
     -   As a music enthusiast I want to be able to find out information on an artist.
         1.  The site has been designed with easy and understandable navigation at the top of each page where there is a clean navigation element, each link describes what the destination page is for.
         2.  When the user clicks the Artists link, they are presented with a page that contains information on each artists signed to 8 Meg Stick Records.
@@ -230,6 +232,7 @@ I put the releases background CSS at the top of the files for easy access when n
     -   As a musician I can contact the label to send in my demo.
         1.  The navigation bar clearly highlights the "Get in Touch" Page.
         2.  Here they can fill out the form on the page including a link to their music.
+<img src="images/screenshots/send-demo.jpg" style="margin: 0;">  
 
 -	Live Music Promoter Visitor Goals
     -   As a live music promoter I can listen to what the artist sounds like.
