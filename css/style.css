@@ -203,7 +203,7 @@ h2 {
     text-align: center;
     position: relative;
     width: 100%;
-    padding-top: 25px;
+    padding-top: 35px;
     padding-bottom: 25px;
 }
 #releases-heading:after {
@@ -451,27 +451,16 @@ main {
 }
 /*----------------------------------------- Footer CSS */
 footer {
-    width: 100%;
-    height: 100px;
     background: linear-gradient(to top, #D4AA00 50%,#FFDD55 50%, #FFDD55 75%);
-    padding-top: 12px;
 }
 .footer-logo {
-    width: 81px;
-    height: 75px;
-    display: block;
-    float: left;
-    margin-left: 25px;
-    background-image: url("../images/8meg-rm.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    text-align: center;
+    margin-top: 10px;
 }
-
 .footer-links {
-    float: right;
-    margin: 22px 25px 0 0;
- }
+    text-align: center;
+    margin-top: 10px;
+}
  .footer-links li a i {
     width: 32px;
     height: 32px;
@@ -480,7 +469,7 @@ footer {
     font-size: 13px;
     line-height: 10px;
     text-align: center;
-   background-color: #1a1a1a;
+    background-color: #1a1a1a;
     color: #f9f9f9;
     transition: background-color 0.5s ease, color 0.5s ease;
     -webkit-transition: background-color 0.5s ease, color 0.5s ease;
@@ -506,7 +495,17 @@ footer {
         .hero {
         background-image: url("../images/desktop-img.png");
     }
-    
+    footer {
+    background: linear-gradient(to top, #D4AA00 25%,#FFDD55 25%, #FFDD55 75%);
+}
+    .footer-logo {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .footer-links {
+        text-align: right;
+        margin-bottom: 10px;
+    }
 @media (min-width: 992px) {
         .navbar-expand-lg .navbar-nav .nav-link {
         width: 125px;
