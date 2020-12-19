@@ -275,7 +275,7 @@ I used a wide group of friends and family to test the user stories across the fo
 - iOS (iPhone 7, iPhoneX, iPhone SE)
     - Safari
 
-Functional testing was carried out against every element to ensure everything worked and was linked as expected. This was recorded in [functional-testing.xlsx](functional-testing.xlsx)
+Functional testing was carried out against every element to ensure everything worked and was linked as expected before user tested was started. This was recorded in [functional-testing.xlsx](functional-testing.xlsx). Another tab was added after user testing to regression test functionality following changes through the user testing feedback.
 
 ## Bugs and issues
 
@@ -283,7 +283,9 @@ I encountered an issue with syntax when displaying and image. The site would lik
 
 I initially started using SVG files directly in the code but some of the strings were so large it cause an error in Gitpod. I switched to referencing the .svg file instead. I also had an issue where the navbar text logo SVG stopped rendering properly.
 
-Both the Youtube embed and the modal gallery code i used returned validation issues when checked through the Wc3 Nu HTML Checker. These were corrected to comply.
+Both the YouTube embed and the modal gallery code i used returned validation issues when checked through the Wc3 Nu HTML Checker. These were corrected to comply.
+
+Accessibility testing raised warnings about using placeholder text instead of label text, which was hidden. I initially chose to do this for aesthetic reasons but reflecting on warnings I decided accessibility of the forms was more important. That the websites text is justified also raised a warning but i decided that for the design of the site it was OK to leave it justified as the text did not appear to be impacted and the content of the text is not of significant/critical importance.
 
 ## Deployment
 
