@@ -242,6 +242,7 @@ I put the releases background CSS at the top of the files for easy access when n
     -   As a live music promoter I can watch a video of an artist.
         1.  The navigation bar clearly highlights the "Artists" Page.
         2.  If the artist has one then the embedded YouTube video associated with their profile will be available to play in the browser. That artists section will also contain a link to their YouTube channel.
+<img src="images/screenshots/play-video.jpg" style="margin: 0;">  
     -   As a live music promoter I can contact the label about an artist.
         1.  The navigation bar clearly highlights the "Contact Us" Page.
         2.  Here they can fill out the form on the page titled Any other reason! The description for the form states it is for live bookings or partnership opportunities.
