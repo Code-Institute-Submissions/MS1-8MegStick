@@ -496,15 +496,14 @@ footer {
         background-image: url("../images/desktop-img.png");
     }
     footer {
-    background: linear-gradient(to top, #D4AA00 25%,#FFDD55 25%, #FFDD55 75%);
+    background: linear-gradient(to top, #D4AA00 15%,#FFDD55 15%, #FFDD55 75%);
 }
     .footer-logo {
         text-align: left;
-        margin-bottom: 10px;
     }
     .footer-links {
         text-align: right;
-        margin-bottom: 10px;
+        margin-top: 15px;
     }
 @media (min-width: 992px) {
         .navbar-expand-lg .navbar-nav .nav-link {
