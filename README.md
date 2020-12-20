@@ -7,7 +7,7 @@
 their musical releases.
 >
 
-The site has been deployed via GitHub https://paulwheatcroft.github.io/MS1-8MegStick/
+The site has been deployed via GitHub to https://paulwheatcroft.github.io/MS1-8MegStick/
 
 ## User Experience (UX)
 

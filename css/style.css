@@ -461,7 +461,7 @@ footer {
     text-align: center;
     margin-top: 10px;
 }
- .footer-links li a i {
+.footer-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -475,14 +475,13 @@ footer {
     -webkit-transition: background-color 0.5s ease, color 0.5s ease;
     -moz-transition: background-color 0.5s ease, color 0.5s ease;
     -o-transition: background-color 0.5s ease, color 0.5s ease;
- }
-  .footer-links li a i:hover {
+}
+.footer-links li a i:hover {
     background-color: #80FFE6;
     color: #1a1a1a;
 }
-
 /*----------------------------------------- Media Queries CSS */
-@media (min-width: 412px) {
+@media all and (min-width: 412px) {
     .hero {
         background-image: url("../images/tablet-img.png");
     }
@@ -491,13 +490,13 @@ footer {
         border-radius: 4px;
     }
 }
-@media (min-width: 576px) {
-        .hero {
-        background-image: url("../images/desktop-img.png");
+@media all and (min-width: 576px) {
+    .hero {
+    background-image: url("../images/desktop-img.png");
     }
     footer {
     background: linear-gradient(to top, #D4AA00 15%,#FFDD55 15%, #FFDD55 75%);
-}
+    }
     .footer-logo {
         text-align: left;
     }
@@ -505,12 +504,14 @@ footer {
         text-align: right;
         margin-top: 15px;
     }
-@media (min-width: 992px) {
-        .navbar-expand-lg .navbar-nav .nav-link {
+}
+@media all and (min-width: 992px) {
+    .nav-link {
         width: 125px;
     }
-@media (min-width: 1200px) {
-  .release-container {
+}
+@media all and (min-width: 1200px) {
+    .release-container {
         width: 320px;
         height: 470px;
         border-radius: 5px;
@@ -542,6 +543,4 @@ footer {
     .modalImage {
     width: 75%;
     }
-}
-}
 }
