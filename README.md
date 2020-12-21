@@ -303,21 +303,25 @@ The Project has been deployed via Github Pages. To do this:
 
 ## Acknowledgements
 
-[Mark Down Guide](https://www.markdownguide.org/)
+The project was starrted using the The Code Institute's [Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
 
-README icons created by using Segoe UI Sybol font and InkScape
+The template comes integrated with [Bootstrap](https://getbootstrap.com/) 4.5.3 which was used throught the project for the structure and layout of the website.
 
-[Google Fonts](https://fonts.google.com/) used for displaying Noto Sans and Source Sans Pro fonts
+The [Mark Down Guide](https://www.markdownguide.org/) was referenced when creating this README.
+
+README icons were created by using Segoe UI Symbol font and Inkscape.
+
+[Google Fonts](https://fonts.google.com/) used for displaying Noto Sans, Noto Sans TC and Monoton fonts.
 
 The streaming icons were downloaded from https://simpleicons.org/
 
-I was able to get the YouTube videos on the Artists page to scale nicely with the Bootstrap grid system thanks to [Chris Coyier's](https://css-tricks.com/author/chriscoyier/) tutorial on [Fluid Vidio Layout](https://css-tricks.com/fluid-width-video/) 
+I was able to get the YouTube videos on the Artists page to scale nicely with the Bootstrap grid system thanks to [Chris Coyier's](https://css-tricks.com/author/chriscoyier/) tutorial on [Fluid Vidio Layout](https://css-tricks.com/fluid-width-video/) .
 
 A simple [modal image solution](https://www.tutorialspoint.com/how-to-create-a-modal-image-gallery-with-css-and-javascript) from [Amit Diwan](https://www.tutorialspoint.com/answers/amitdiwan) was used on the Artists page. 
 
 Thanks to [Mohammad Usman's](https://stackoverflow.com/users/5933656/mohammad-usman) answer to this [question](https://stackoverflow.com/questions/38850419/how-to-create-multi-color-border-with-css) about mulitple colours on a border.
 
-I used this page on Stackoverflow to implement a [browser colour change on mobile](https://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-chrome-version-o)
+I used this page on Stackoverflow to implement a [browser colour change on mobile](https://stackoverflow.com/questions/26960703/how-to-change-the-color-of-header-bar-and-address-bar-in-newest-chrome-version-o).
 
 The footer Social media links were amended from those used in the Code Institue HTML/CSS Project - Love Running.
 
