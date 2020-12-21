@@ -206,46 +206,53 @@ I put the releases background CSS at the top of the files for easy access when n
 ### Testing User Stories from User Experience (UX) Section
 
 
--	Music Enthusiast Visitor Goals
-    -	As a music enthusiast I want to easily find links to tracks on music streaming sites.
-        1.   Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image advertising the latest upcoming release which takes up most of the screen, just beneath the hero image is the Releases heading which is partially visible indicating more below.
-        2.   The user has two options, use the menu item at the top of the page labelled Releases or scroll down the page, both of which will lead to the same place, which is a section on each of the releases in the 8 Meg Stick Records catalogue.
-        3.  The user can now select the streaming icon of their choice for each of the releases. This will open separately in the browser or in the relevant app if available locally.
-<img src="images/screenshots/releases-scroll.jpg" style="margin: 0;">  
-<img src="images/screenshots/releases-menu.jpg" style="margin: 0;">   
-    -   As a music enthusiast I want to be able to find out information on an artist.
-        1.  The site has been designed with easy and understandable navigation at the top of each page where there is a clean navigation element, each link describes what the destination page is for.
-        2.  When the user clicks the Artists link, they are presented with a page that contains information on each artists signed to 8 Meg Stick Records.
-        3.  Within each artist’s section the user can play a video withing the page.
-        4.  The user can also click on thumbnail images to open a larger image to see images of the artists and their associated artwork.
-        5.  Furthermore, within each section the user is presented with the opportunity to link through to each artist’s own social media and websites where applicable.
-    -   As a music enthusiast I can receive updates on new releases.
-        1.  Upon entering the site, by default users are greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image advertising the latest upcoming release which takes up most of the screen containing a call to action button to be notified of releases.
-        2.  The user can click this button to be specifically taken through to the Get email alerts for on the Get in Touch page.
-        3.  From here the user can sign up to receive email alerts.
+####	Music Enthusiast Visitor Goals
+-	As a music enthusiast I want to easily find links to tracks on music streaming sites.
+    1.   Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image advertising the latest upcoming release which takes up most of the screen, just beneath the hero image is the Releases heading which is partially visible indicating more below.
+    2.   The user has two options, use the menu item at the top of the page labelled Releases or scroll down the page, both of which will lead to the same place, which is a section on each of the releases in the 8 Meg Stick Records catalogue.
+    3.  The user can now select the streaming icon of their choice for each of the releases. This will open separately in the browser or in the relevant app if available locally. 
 
--	Musician Visitor Goals
-    -   As a musician I can find out information about the record label.
-        1.  The site has been designed with easy and understandable navigation at the top of each page where there is a clean navigation element, each link describes what the destination page is for.
-        2.  When the user clicks the “About” link, they are presented with a page that contains information on 8 Meg Stick Records.
-        3.  The user can also find the label’s social media links in the footer of every page.
-    -   As a musician I can contact the label to send in my demo.
-        1.  The navigation bar clearly highlights the "Get in Touch" Page.
-        2.  Here they can fill out the form on the page including a link to their music.
+<img src="images/screenshots/releases-scroll.jpg" style="margin: 0;">
+
+<img src="images/screenshots/releases-menu.jpg" style="margin: 0;"> 
+
+-   As a music enthusiast I want to be able to find out information on an artist.
+    1.  The site has been designed with easy and understandable navigation at the top of each page where there is a clean navigation element, each link describes what the destination page is for.
+    2.  When the user clicks the Artists link, they are presented with a page that contains information on each artists signed to 8 Meg Stick Records.
+    3.  Within each artist’s section the user can play a video withing the page.
+    4.  The user can also click on thumbnail images to open a larger image to see images of the artists and their associated artwork.
+    5.  Furthermore, within each section the user is presented with the opportunity to link through to each artist’s own social media and websites where applicable.
+-   As a music enthusiast I can receive updates on new releases.
+    1.  Upon entering the site, by default users are greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image advertising the latest upcoming release which takes up most of the screen containing a call to action button to be notified of releases.
+    2.  The user can click this button to be specifically taken through to the Get email alerts for on the Get in Touch page.
+    3.  From here the user can sign up to receive email alerts.
+
+####	Musician Visitor Goals
+
+-   As a musician I can find out information about the record label.
+    1.  The site has been designed with easy and understandable navigation at the top of each page where there is a clean navigation element, each link describes what the destination page is for.
+    2.  When the user clicks the “About” link, they are presented with a page that contains information on 8 Meg Stick Records.
+    3.  The user can also find the label’s social media links in the footer of every page.
+-   As a musician I can contact the label to send in my demo.
+    1.  The navigation bar clearly highlights the "Get in Touch" Page.
+    2.  Here they can fill out the form on the page including a link to their music.
+
 <img src="images/screenshots/send-demo.jpg" style="margin: 0;">  
 
--	Live Music Promoter Visitor Goals
-    -   As a live music promoter I can listen to what the artist sounds like.
-        1.  Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Beneath the Hero Image advertising the latest upcoming release there is the Releases heading which is partially visible indicating more below.
-        2.  The user has two options, use the menu item at the top of the page labelled Releases or scroll down the page, both of which will lead to the same place, which is a section on each of the releases in the 8 Meg Stick Records catalogue. The user can play the music from the artist they are interested in from here.
-        3.  The user can play a YouTube video directly in the webpage. For some of the Artists this will be one of the music releases.
-    -   As a live music promoter I can watch a video of an artist.
-        1.  The navigation bar clearly highlights the "Artists" Page.
-        2.  If the artist has one then the embedded YouTube video associated with their profile will be available to play in the browser. That artists section will also contain a link to their YouTube channel.
+####	Live Music Promoter Visitor Goals
+-   As a live music promoter I can listen to what the artist sounds like.
+    1.  Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Beneath the Hero Image advertising the latest upcoming release there is the Releases heading which is partially visible indicating more below.
+    2.  The user has two options, use the menu item at the top of the page labelled Releases or scroll down the page, both of which will lead to the same place, which is a section on each of the releases in the 8 Meg Stick Records catalogue. The user can play the music from the artist they are interested in from here.
+    3.  The user can play a YouTube video directly in the webpage. For some of the Artists this will be one of the music releases.
+-   As a live music promoter I can watch a video of an artist.
+    1.  The navigation bar clearly highlights the "Artists" Page.
+    2.  If the artist has one then the embedded YouTube video associated with their profile will be available to play in the browser. That artists section will also contain a link to their YouTube channel.
+
 <img src="images/screenshots/play-video.jpg" style="margin: 0;">  
-    -   As a live music promoter I can contact the label about an artist.
-        1.  The navigation bar clearly highlights the "Contact Us" Page.
-        2.  Here they can fill out the form on the page titled Any other reason! The description for the form states it is for live bookings or partnership opportunities.
+
+-   As a live music promoter I can contact the label about an artist.
+    1.  The navigation bar clearly highlights the "Contact Us" Page.
+    2.  Here they can fill out the form on the page titled Any other reason! The description for the form states it is for live bookings or partnership opportunities.
 
 
 Both HTML and CSS have been validated via
