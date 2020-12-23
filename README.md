@@ -7,7 +7,7 @@
 their musical releases.
 >
 
-The site has been deployed via GitHub to https://paulwheatcroft.github.io/MS1-8MegStick/
+The live site has been deployed via GitHub to https://paulwheatcroft.github.io/MS1-8MegStick/
 
 ## User Experience (UX)
 
@@ -267,7 +267,7 @@ Both HTML and CSS have been validated via
 
 Accessibility was checked at https://www.webaccessibility.com/
 
-Responsiveness was checked thought using the Google dev tools and the https://www.responsinator.com/ 
+Responsiveness was checked thought using the Google dev tools and [www.responsinator.com](https://www.responsinator.com/?url=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Findex.html)
 
 A code review was posted in the Code Institute peer-code-review channel. Following feedback I changed the footer logo image to link back to the Releases page.
 
