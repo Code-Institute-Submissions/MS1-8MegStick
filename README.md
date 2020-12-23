@@ -38,7 +38,7 @@ A musician will use the website to review the music released by the label with a
 - Links to released music
 - Be able to contact the label
 
-### Music Promoter
+### Live Music Promoter
 
 <img src="images/promoter.png" style="margin: 0;">
 
@@ -57,7 +57,7 @@ Using the targeted personas, the following list of user stories have been identi
 - As a user I can receive updates on new releases
 - as a musician I can find out information about the record label
 - as a musician I can contact the label to send my demo
-- As a music promoter I can listen to what the artist sounds like
+- As a Live music promoter I can listen to what the artist sounds like
 - as a live music promoter I can watch a video of an artist
 - as a user I can contact the label about an artist
 
@@ -310,9 +310,9 @@ The Project has been deployed via Github Pages. To do this:
 
 ## Acknowledgements
 
-The project was starrted using the The Code Institute's [Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
+The project was started using the The Code Institute's [Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
 
-The template comes integrated with [Bootstrap](https://getbootstrap.com/) 4.5.3 which was used throught the project for the structure and layout of the website.
+The template is integrated with [Bootstrap](https://getbootstrap.com/) 4.5.3 which was used throught the project for the structure and layout of the website.
 
 The [Mark Down Guide](https://www.markdownguide.org/) was referenced when creating this README.
 
