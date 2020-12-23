@@ -189,17 +189,17 @@ I put the releases background CSS at the top of the files for easy access when n
 
 ### Frameworks, Libraries & Programs Used
 
-- Bootstrap 4.4.1: Bootstrap was used to assist with the framework build and responsiveness of the website.
-- Google Fonts: Google fonts were used to import the 'Noto Sans', 'Noto Sans TC' and 'Monoton' font into the style.css file which is used on all pages throughout the project.
-- Font Awesome: Font Awesome was used on all pages throughout the website for social media icons.
-- jQuery: jQuery came with Bootstrap to make the navbar responsive.
-- JavaScript: A small JavaScript program was used to facility the artist galleries.
-- Git: Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-- Gitpod: Gitpod was used as the development environment.
-- GitHub: GitHub is used to store the projects code after being pushed from Git.
-- Photoshop: Photoshop was used extensively to create artist images including the hero images.
-- Inkscape: Inkscape was used to create SVG files where needed such as the artist's logo.
-- Figma: Figma was used to create the wireframes during the design process.
+- [Bootstrap](https://getbootstrap.com/) 4.4.1: Bootstrap was used to assist with the framework build and responsiveness of the website.
+- [Google Fonts](https://fonts.google.com/): Google fonts were used to import the 'Noto Sans', 'Noto Sans TC' and 'Monoton' font into the style.css file which is used on all pages throughout the project.
+- [Font Awesome](https://fontawesome.com/): Font Awesome was used on all pages throughout the website for social media icons.
+- [jQuery](https://jquery.com/): jQuery came with Bootstrap to make the navbar responsive.
+- [JavaScript](https://www.javascript.com/): A small JavaScript program was used to facility the artist galleries.
+- [Git](https://git-scm.com/): Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [Gitpod](https://www.gitpod.io/): Gitpod was used as the development environment.
+- [GitHub](https://github.com/): GitHub is used to store the projects code after being pushed from Git.
+- [Photoshop](https://www.adobe.com/uk/products/photoshopfamily.html): Photoshop was used extensively to create artist images including the hero images.
+- [Inkscape](https://inkscape.org/): Inkscape was used to create SVG files where needed such as the artist's logo.
+- [Figma](https://www.figma.com/): Figma was used to create the wireframes during the design process.
 
 ## Testing
 
