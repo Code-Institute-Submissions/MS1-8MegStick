@@ -258,10 +258,10 @@ I put the releases background CSS at the top of the files for easy access when n
 Both HTML and CSS have been validated via
 
 - W3C [Nu HTML Checker](https://validator.w3.org/nu/)
-    - [index.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Findex.html)
-    - [artists.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fartists.html)
-    - [about.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fabout.html)
-    - [contact.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fcontact.html)
+    - Releases [index.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Findex.html)
+    - Artists [artists.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fartists.html)
+    - About [about.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fabout.html)
+    - Get in Touch [contact.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fcontact.html)
 - W3C CSS Validation Service [CSS Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 Accessibility was checked at https://www.webaccessibility.com/
@@ -295,7 +295,7 @@ I encountered an issue with syntax when displaying and image. The site would lik
 
 I initially started using SVG files directly in the code but some of the strings were so large it caused an error in Gitpod. I switched to referencing the .svg file instead. I also had an issue where the navbar text logo SVG stopped rendering properly when implemented directly.
 
-Both the YouTube embed and the modal gallery code i used returned validation issues when checked through the Wc3 Nu HTML Checker. These were corrected to comply.
+Both the YouTube embed and the modal gallery code i used returned validation issues when checked through the W3C Nu HTML Checker. These were corrected to comply.
 
 Accessibility testing raised warnings about using placeholder text instead of label text, which was hidden. I initially chose to do this for aesthetic reasons but reflecting on warnings I decided accessibility of the forms was more important. That the websites text is justified also raised a warning but i decided that for the design of the site it was OK to leave it justified as the text did not appear to be impacted and the content of the text is not of significant/critical importance.
 
