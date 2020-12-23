@@ -323,7 +323,7 @@ README icons were created by using Segoe UI Symbol font and Inkscape.
 
 [Google Fonts](https://fonts.google.com/) used for displaying Noto Sans, Noto Sans TC and Monoton fonts.
 
-The streaming icons were downloaded from https://simpleicons.org/
+The streaming icons were downloaded from [simpleicons.org](https://simpleicons.org/)
 
 I was able to get the YouTube videos on the Artists page to scale nicely with the Bootstrap grid system thanks to [Chris Coyier's](https://css-tricks.com/author/chriscoyier/) tutorial on [Fluid Vidio Layout](https://css-tricks.com/fluid-width-video/) .
 
