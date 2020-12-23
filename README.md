@@ -55,12 +55,12 @@ Using the targeted personas, the following list of user stories have been identi
 
 - As a music enthusiast I want to easily find links to tracks on music streaming sites
 - As a music enthusiast I want to be able to find out information on an artist
-- As a user I can receive updates on new releases
+- As a music enthusiast I can receive updates on new releases
 - as a musician I can find out information about the record label
 - as a musician I can contact the label to send my demo
 - As a Live music promoter I can listen to what the artist sounds like
 - as a live music promoter I can watch a video of an artist
-- as a user I can contact the label about an artist
+- as a live music promoter I can contact the label about an artist
 
 ## Design Choices
 
