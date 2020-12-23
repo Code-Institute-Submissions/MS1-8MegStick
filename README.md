@@ -104,10 +104,10 @@ Whilst the focus is on a mobile first design the website needs to provide an opt
 
 To ensure the experience is focussed on the releases this will be a multi-page website consisting of 4 pages.
 
-1. releases
-2. artists
-3. about the label
-4. contact
+1. Releases
+2. Artists
+3. About
+4. Get in Touch
 
 There is a horizontal navigation bar at the top of each page facilitating access to other pages on the site. This navigation element will collapse on a mobile device.
 
@@ -118,7 +118,7 @@ the same footer element which contain the record labels social media links.
 
 The top of the page consists strong imagery advertising the latest release or next up and coming release from the record label. This section enables the 
 viewer to sign up for new music release alerts from the label. This section needed to take up most but not all of the viewing area as to reveal the releases
-beneath the hero image. The releases will be in in chronological order of their release. 
+beneath the hero image. The releases will be in in chronological order of their release date. 
 Each release section should display:
 
 - Song title
@@ -128,7 +128,7 @@ Each release section should display:
 
 ### The Artists Page
 
-Beneath the navigation bar which is common to all of the pages the artists page will contain a section on each artist. This progresses down the page in alphabetical order. 
+Beneath the navigation bar which is common to all of the pages the Artists page will contain a section on each artist. This progresses down the page in alphabetical order. 
 Each artist section contains:
 
 - Artist name
@@ -141,15 +141,15 @@ Each artist section contains:
 
 ### The About Page
 
-Beneath the navigation bar which is common to all of the pages the artists page will contain a section on the record label. This section will contain:
+Beneath the navigation bar which is common to all of the pages the About page will contain a section on the record label. This section will contain:
 
 - An overview of the record label
 - Outline the record label ethos and musical direction
 - link to a form to submit a demo
 
-### The Contact Page
+### The Get in Touch Page
 
-Beneath the navigation bar which is common to all of the pages the contact page will contain 3 forms.
+Beneath the navigation bar which is common to all of the pages the Get in Touch page will contain 3 forms.
 
 1. A form to register or notifications of new releases
 2. A form to submit a demo
@@ -169,7 +169,7 @@ A Figma wireframe for each page can be found in the links Below.
 
 [About](https://www.figma.com/file/lbEOracgvjZ4jw3uFd6hJd/8-Meg-Stick-Records?node-id=49%3A79)
 
-[Contact](https://www.figma.com/file/lbEOracgvjZ4jw3uFd6hJd/8-Meg-Stick-Records?node-id=49%3A207)
+[Get in Touch](https://www.figma.com/file/lbEOracgvjZ4jw3uFd6hJd/8-Meg-Stick-Records?node-id=49%3A207)
 
 ## Design Choices
 
@@ -205,7 +205,6 @@ I put the releases background CSS at the top of the files for easy access when n
 ## Testing
 
 ### Testing User Stories from User Experience (UX) Section
-
 
 ####	Music Enthusiast Visitor Goals
 -	As a music enthusiast I want to easily find links to tracks on music streaming sites.
@@ -252,7 +251,7 @@ I put the releases background CSS at the top of the files for easy access when n
 <img src="images/screenshots/play-video.jpg" style="margin: 0;">  
 
 -   As a live music promoter I can contact the label about an artist.
-    1.  The navigation bar clearly highlights the "Contact Us" Page.
+    1.  The navigation bar clearly highlights the "Get in Touch" Page.
     2.  Here they can fill out the form on the page titled Any other reason! The description for the form states it is for live bookings or partnership opportunities.
 
 
