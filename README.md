@@ -292,7 +292,7 @@ Functional testing was carried out against every element to ensure everything wo
 
 I encountered an issue with syntax when displaying and image. The site would like fine in Gitpod but the images would be missing when viewing the site via Github. This was down to relative paths of the images when referenced withing the CSS file.
 
-I initially started using SVG files directly in the code but some of the strings were so large it cause an error in Gitpod. I switched to referencing the .svg file instead. I also had an issue where the navbar text logo SVG stopped rendering properly.
+I initially started using SVG files directly in the code but some of the strings were so large it caused an error in Gitpod. I switched to referencing the .svg file instead. I also had an issue where the navbar text logo SVG stopped rendering properly when implemented directly.
 
 Both the YouTube embed and the modal gallery code i used returned validation issues when checked through the Wc3 Nu HTML Checker. These were corrected to comply.
 
@@ -333,6 +333,8 @@ I used this page on Stackoverflow to implement a [browser colour change on mobil
 The footer Social media links were amended from those used in the Code Institue HTML/CSS Project - Love Running.
 
 All Images were created by the developer.
+
+Thanks to my Code Institue mentor for useful direction and insights.
 
 ## Further Development Ideas
 
