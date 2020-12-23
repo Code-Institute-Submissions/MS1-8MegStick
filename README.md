@@ -264,7 +264,7 @@ Both HTML and CSS have been validated via
     - Get in Touch [contact.html Result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fcontact.html)
 - W3C CSS Validation Service [CSS Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-Accessibility was checked at https://www.webaccessibility.com/
+Accessibility was checked at [www.webaccessibility.com](https://www.webaccessibility.com/)
 
 Responsiveness was checked thought using the Google dev tools and [www.responsinator.com](https://www.responsinator.com/?url=https%3A%2F%2Fpaulwheatcroft.github.io%2FMS1-8MegStick%2Findex.html)
 
