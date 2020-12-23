@@ -315,7 +315,9 @@ The project was started using the The Code Institute's [Gitpod Full Template](ht
 
 The template is integrated with [Bootstrap](https://getbootstrap.com/) 4.5.3 which was used throught the project for the structure and layout of the website.
 
-The [Mark Down Guide](https://www.markdownguide.org/) was referenced when creating this README.
+The Code Institute [SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME) was referenced regularly to shape this README correctly.
+
+The [Mark Down Guide](https://www.markdownguide.org/) was also referenced when creating this README.
 
 README icons were created by using Segoe UI Symbol font and Inkscape.
 
