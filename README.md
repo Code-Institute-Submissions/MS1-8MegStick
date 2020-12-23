@@ -332,6 +332,8 @@ I used this page on Stackoverflow to implement a [browser colour change on mobil
 
 The footer Social media links were amended from those used in the Code Institue HTML/CSS Project - Love Running.
 
+All Images were created by the developer.
+
 ## Further Development Ideas
 
 - For ease of administration it would be beneficial to create a form that could populate the new releases meaning someone non-technical could add these to the page.
